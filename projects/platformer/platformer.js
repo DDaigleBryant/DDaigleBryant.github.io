@@ -45,6 +45,8 @@ $(function () {
     createPlatform(450, 495, 2000, 20);
     createPlatform(700, 435, 90, 80);
     createPlatform(900, 335, 90, 45);
+    createPlatform(1100, 265, 90, 45);
+    createPlatform(300, 175, 695, 45);
     createPlatform(1350, 0, 90, 700);
 
 
@@ -58,6 +60,7 @@ $(function () {
 
     createCollectable("database", 200, 500, 6, 0.7);
     createCollectable("max", 1310, 650, 6, 0.7);
+    createCollectable("steve", 300, 100, 6, 0.15);
 
 
 
@@ -69,7 +72,7 @@ $(function () {
     // example usage: createCannon(side, position, delay, width, height)
     createCannon("right", 500, 2000); // Right Wall
     createCannon("bottom", 600, 700); // Bottom Cannon
-    createCannon("bottom", 1000, 700); // Bottom Right
+    createCannon("left", 150, 2000); // Bottom Right
 
 
 
